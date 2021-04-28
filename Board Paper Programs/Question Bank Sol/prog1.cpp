@@ -6,11 +6,11 @@ int main(){
     cin >> a >> b; 
     if(a>b)
     {
-        max = a;
+        cout << " Max is: " << a;
     }
     else
     {
-        max = b;
+        cout << " Max is: " << b;
     }
-    cout << "Max of the Two numbers is: " << max;
+    
 }
