@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int a=0,b=1, n=15, s=0;
+    int a=1,b=1, s; // First two terms of Fibonacci
     cout << "First "<<n<<" Fibonacci: ";
     cout<<a<<" "<<b;
-    for(int i=0;i<=15;i++)
+    for(int i=0;i<=13;i++)
     {
         s=a+b;
         cout <<" "<<s;
