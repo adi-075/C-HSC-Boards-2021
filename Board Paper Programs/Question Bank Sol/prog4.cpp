@@ -9,5 +9,5 @@ int main()
     {
         f=f*i;
     }
-    cout<<"Factorial is: "<<f;
+    cout<<"Factorial is: "<<f << endl;
 }

@@ -9,7 +9,6 @@ int main()
  
     for(i=0;i<10;++i) //Calculate the sum of 10 elements
         sum=sum+arr[i]; 
-    cout<<"Sum of numbers is:"<<sum; 
- 
+    cout<<"Sum of numbers is:"<<sum << endl;
     return 0; 
 } 

@@ -6,6 +6,6 @@ int main(){
     cin >> a >> b; 
     max = (a > b) ? a : b;
     min = (a < b) ? a : b;
-    cout << "Max of the Two numbers: "<< a << " & " << b << " is: "<< max;
-    cout << " and Minimum is: " << min; 
+    cout << "Max of the Two numbers: "<< a << " & " << b << " is: "<< max << endl;
+    cout << " and Minimum is: " << min << endl;
 }

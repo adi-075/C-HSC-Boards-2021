@@ -5,7 +5,10 @@ using namespace std;
 void reverse(string str)
 {
    for (int i=str.length()-1; i>=0; i--)
-      cout << str[i]; 
+   {
+       cout << str[i] << endl;
+   }
+    
 }
 
 int main(void)
@@ -14,5 +17,5 @@ int main(void)
     cout << "Enter a sentence: " << endl;
     cin >> s;
     reverse(s);
-    return (0);
+    return 0;
 }

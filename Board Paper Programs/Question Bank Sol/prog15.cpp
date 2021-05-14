@@ -18,7 +18,7 @@ class temperature
     void display()
     {
       cout << "Temperature in Celsius: "<<endl;
-      cout << C;
+      cout << C << endl;
     }
 };
 

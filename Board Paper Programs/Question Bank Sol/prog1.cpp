@@ -12,5 +12,10 @@ int main(){
     {
         cout << " Max is: " << b;
     }
+<<<<<<< HEAD
+    cout << "Max of the Two numbers is: " << max << endl;
+}
+=======
     
 }
+>>>>>>> 399ca94094ae42285cd65a82f54a223a4aee7eb1
